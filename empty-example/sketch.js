@@ -28,7 +28,7 @@ function setup () {
   clearButton.mouseClicked(clearDrawing)
   // using div to show size and color so it changes without having to clear the canvas and redraw everytime it shrinks
   div1 = createDiv('')
-  div1.position((windowWidth*0.79)-size, 150)
+  div1.position((windowWidth*0.81)-size, 150)
   div1.style('display', 'flex')
   div1.style('justify-content', 'center')
   div1.style('align-items', 'center')
@@ -57,6 +57,7 @@ function draw () {
 }
 
 function mouseDragged(){
+  // using mouseDragged is a more simple way but I had to sacrifice being able to click to make a dot
   // if the mouse or last mouse position is inside the area on the right side for the sliders then don't draw anything
   // pmouse is the second to most recent mouse position
   if(mouseX < windowWidth*0.81 && pmouseX < windowWidth*0.81){

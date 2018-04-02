@@ -4,8 +4,13 @@
 
 I had seen some people on YouTube use it and it looked fun to play with the shapes and visual things it can do.
 
+## What does p5 even do?
+p5.js is essentially a simple way to create visual elements on a page, as their website says a sort of 'software sketchbook'. It's very simple to understand the syntax because it is designed for beginners.
+
 ## What I made
 I made a simple drawing application using p5.js for the first time. You can adjust the color and size of the brush as well as clear the screen.
+
+![drawing app I made](https://i.imgur.com/1useksU.png)
 
 
 ## Learning process
@@ -23,7 +28,7 @@ Most of my learning process was having an idea and looking through the documenta
 
 ## Problems with learning
 * Google is nearly useless when googling about p5 there is probably 25 sites mentioning p5.js. Google your problems with the term processing instead of p5 and try to figure out how to convert it into p5 is the best advice I can give.
-* Documentation is meh
+* Documentation is pretty good, usually short and simple if you scroll down a bit on whatever page you are on.
 
 
 ## What I think of it after using it
@@ -33,12 +38,20 @@ I personally think it's pretty lacking and inefficient. A lot of things cannot b
 
 ## Gotchas
 
-* Have to clear canvas then redraw only what you want to get a lot of effects to work
-* The draw function is constantly looping unless you call noLoop()
+* Have to clear canvas then redraw only what you want to get a lot of effects to work.
+* The draw function is constantly looping unless you call noLoop(). This is very easy to forget and blow up your computer.
 
-## Process for setting up p5 in general
-1. Just include p5 and any p5 libraries from a local or remote file
-```     <script src="../p5.min.js"></script>
-  //including p5 dom library
-    <script src="../addons/p5.dom.min.js"></script>
-    ```
+## Process for setting up p5
+1. Just include p5 and any p5 libraries you want to use from a local or remote file.
+```html
+<script src="../p5.min.js"></script>
+<!-- including p5 dom library, this one is locally stored -->
+<script src="../addons/p5.dom.min.js"></script>
+```
+2. Include your p5 script.
+```html
+<script src="sketch.js"></script>
+```
+
+## Running this application
+1. Just download and open index.html in your browser
