@@ -27,7 +27,9 @@ Most of my learning process was having an idea and looking through the documenta
 
 ## What I think of it after using it
 
-I personally think it's pretty lacking and inefficient. A lot of things cannot be done without clearing the canvas then redrawing only what you want. It's nice for creating shapes and some 3D effects but there is surely better ways to do this out there. It seems pretty clear it's barely used after looking for any help online for it.
+I personally think it's pretty lacking and inefficient. A lot of things cannot be done without clearing the canvas then redrawing only what you want. It's nice for creating shapes and some 3D effects but there is surely better ways to do this out there. It seems pretty clear it's barely used after looking for any help online for it. 
+
+For beginners wanting a few simple animations on their website it may be a good idea to checkout p5 but if you are more experienced it's probably not for you.
 
 
 ## Gotchas
