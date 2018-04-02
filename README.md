@@ -8,7 +8,7 @@ I had seen some people on YouTube use it and it looked fun to play with the shap
 p5.js is essentially a simple way to create visual elements on a page, as their website says a sort of 'software sketchbook'. It's very simple to understand the syntax because it is designed for beginners.
 
 ## What I made
-I made a simple drawing application using p5.js for the first time. You can adjust the color and size of the brush as well as clear the screen.
+I made a simple 2D drawing application using p5.js for the first time. You can adjust the color and size of the brush as well as clear the screen.
 
 ![drawing app I made](https://i.imgur.com/1useksU.png)
 
