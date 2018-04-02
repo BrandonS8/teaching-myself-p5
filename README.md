@@ -18,7 +18,7 @@ I started by following the [getting started](https://p5js.org/get-started/) on t
 
 With this idea in mind I started with using the documentation to make circles show up as I dragged my cursor. I got this to work but then discovered the pmouse doc. pmouse is basically the previous mouse position. I tried this out using lines with the mouse coordinates and the pmouse coordinates which worked beautifully compared to the circle method. This line way works a lot better and I later on discovered a few other examples online also use this technique.
 
-Most of my learning process was having an idea and looking through the documentation to figure out how to do it I had attempted to use google to find examples or answers but never found anything relevant.
+Most of my learning process was having an idea and looking through the documentation to figure out how to do it. I had attempted to use google to find examples or answers but never found anything relevant.
 
 ## Problems with learning
 * Google is nearly useless when googling about p5 there is probably 25 sites mentioning p5.js. Google your problems with the term processing instead of p5 and try to figure out how to convert it into p5 is the best advice I can give.
