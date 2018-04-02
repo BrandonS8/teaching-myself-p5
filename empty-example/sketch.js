@@ -2,17 +2,15 @@
 function setup () {
   createCanvas(windowWidth, windowHeight);
   background(200, 200, 200);
-  // frameRate(400)
+  frameRate(150);
 }
 
 function draw () {
-  if(mouseIsPressed) {
-    addCircle(mouseX, mouseY);
-  }
+
 }
 
-function addCircle(x,y){
-  noStroke();
+function mouseDragged(){
   smooth();
-  ellipse(x, y, 20, 20);
+  strokeWeight(20)
+	line(mouseX, mouseY, pmouseX, pmouseY);
 }
