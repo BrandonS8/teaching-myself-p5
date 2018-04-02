@@ -1,18 +1,16 @@
-
 function setup () {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight, WEBGL);
   background(200, 200, 200);
-  // frameRate(400)
 }
 
 function draw () {
-  if(mouseIsPressed) {
+  background(200, 200, 200);
+  if(mouseIsPressed){
     addCircle(mouseX, mouseY);
   }
 }
 
 function addCircle(x,y){
   noStroke();
-  smooth();
-  ellipse(x, y, 20, 20);
+  ellipse(x,y, 30, 30);
 }
