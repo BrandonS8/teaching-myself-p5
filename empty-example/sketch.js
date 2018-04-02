@@ -5,6 +5,7 @@ let size = 20;
 function setup () {
   // create canvas
   createCanvas(windowWidth, windowHeight)
+  // sliders, divs, and paragraph come from p5 dom library
   // sliders to control color
   colorsLabel = createP('Colors (RGB)')
   colorsLabel.position(windowWidth*0.85, 0)

@@ -1,5 +1,5 @@
 # Teaching Myself P5.js
-
+Learn more about p5 [here](https://p5js.org/)
 ## Why I chose it
 
 I had seen some people on YouTube use it and it looked fun to play with the shapes and visual things it can do.
@@ -20,12 +20,6 @@ With this idea in mind I started with using the documentation to make circles sh
 
 Most of my learning process was having an idea and looking through the documentation to figure out how to do it I had attempted to use google to find examples or answers but never found anything relevant.
 
-
-## Possible Alternatives
-* [Anime.js](http://animejs.com/) (Bit more complicated and heavier focus on animation. Even if you aren't interested in Anime.js at least look at their website, it's pretty great.)
-* [Paper.js](http://paperjs.org/) (Pretty close to p5)
-
-
 ## Problems with learning
 * Google is nearly useless when googling about p5 there is probably 25 sites mentioning p5.js. Google your problems with the term processing instead of p5 and try to figure out how to convert it into p5 is the best advice I can give.
 * Documentation is pretty good, usually short and simple if you scroll down a bit on whatever page you are on.
@@ -40,6 +34,22 @@ I personally think it's pretty lacking and inefficient. A lot of things cannot b
 
 * Have to clear canvas then redraw only what you want to get a lot of effects to work.
 * The draw function is constantly looping unless you call noLoop(). This is very easy to forget and blow up your computer.
+
+## Some questions about p5
+* What are the two main functions used in a p5 app?
+> setup() and draw()
+* Which of the above functions loops infinitely unless told otherwise?
+> draw()
+* How do you make a canvas that is equal to the height/width of the window? 
+> createCanvas(windowWidth, windowHeight)
+
+
+## Possible Alternatives
+* [Anime.js](http://animejs.com/) (Bit more complicated and heavier focus on animation. Even if you aren't interested in Anime.js at least look at their website, it's pretty great.)
+* [Paper.js](http://paperjs.org/) (Pretty close to p5)
+
+
+
 
 ## Process for setting up p5
 1. Just include p5 and any p5 libraries you want to use from a local or remote file.
